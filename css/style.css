@@ -1,0 +1,13 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Global CSS */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h1 .name-highlight{
+    color: orange;
+}
