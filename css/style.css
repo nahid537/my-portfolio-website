@@ -2,12 +2,129 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 /* Global CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+.container{
+    width: 1140px;
+    margin: 0 auto;
 }
-h1 .name-highlight{
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
+.half-width{
+    width: 48%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-fluid{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Banner Section CSS Start */
+.banner-section{
+    width: 100%;
+    background: url(../images/top-banner.png) no-repeat;
+    padding: 0px 0px 50px;
+    float: left;
+}
+.banner-section h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.banner-section .name-highlight{
     color: orange;
+}
+.banner-section h3{
+    padding: 40px 0px 15px 0px;
+}
+.banner-section p{
+    color: dimgray;
+}
+.banner-section img{
+    margin-left: 50px;
+}
+/* About Section CSS Start */
+.about-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+    background: url(../images/dream-bg.png) no-repeat right;
+}
+.about-section h2{
+    font-size: 40px;
+    padding: 50px 0px 25px 0px;
+}
+.about-section h3{
+    padding-bottom: 15px;
+}
+.about-section p{
+    color: dimgray;
+}
+
+/* Experience Section CSS Start */
+.experience-section{
+    width: 100%;
+    float: left;
+    padding: 100px 0px 120px;
+    background: url(../images/exp-bg.png) no-repeat left;
+}
+.experience-section .half-width{
+    width: 44%;
+}
+.experience-section h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.experience-section h3{
+    color: orange;
+    padding-bottom: 15px;
+}
+.experience-section p{
+    color: dimgray;
+}
+.experience-box{
+    box-shadow: 8px 10px 35px grey;
+    padding: 40px 20px 100px;
+}
+.experience-right-box{
+    float: right;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* Footer Section CSS Start */
+footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+footer p{
+    color: dimgray;
+    text-align: center;
 }
